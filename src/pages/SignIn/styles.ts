@@ -18,7 +18,14 @@ export const Content = styled.div`
 
   width: 100%;
   max-width: 700px;
+`;
+export const Background = styled.div`
+  flex: 1;
+  background: url(${sigInBackground}) no-repeat center;
+  background-size: cover;
+`;
 
+export const AnimationContainer = styled.div`
   form {
     margin: 80px 0;
     width: 340px;
@@ -59,9 +66,4 @@ export const Content = styled.div`
       color: ${shade(0.2, '#ff9000')};
     }
   }
-`;
-export const Background = styled.div`
-  flex: 1;
-  background: url(${sigInBackground}) no-repeat center;
-  background-size: cover;
 `;
